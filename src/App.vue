@@ -15,7 +15,7 @@ export default{
 
 <template>
   <section>
-    <AppTitle></AppTitle>
+    <h1><AppTitle></AppTitle></h1>
   </section>
 </template>
 
