@@ -1,8 +1,8 @@
 <script>
-import AppTitle from './components.AppTitle';
-export default{
-  data(){
-    return{
+import AppTitle from '../src/components/AppTitle.vue';
+export default {
+  data() {
+    return {
     };
   },
 
@@ -15,7 +15,9 @@ export default{
 
 <template>
   <section>
-    <h1><AppTitle></AppTitle></h1>
+    <h1>
+      <AppTitle></AppTitle>
+    </h1>
   </section>
 </template>
 
